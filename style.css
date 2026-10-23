@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+}
+.headerImg{
+    background-image: url(./image_folder/homeimg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;  
+}
+.logoimg{
+    height: 100px;
+}
+.nav-link{
+    color: black !important;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+.nav-link:hover, .nav-link.active{
+    background-color: rgb(32, 195, 32) !important;
+}
+.onlinebtn, .productBtn{
+    background-color: rgb(32, 195, 32) !important;
+}
+.productText, .hanbermenu{
+    color: rgb(32, 195, 32) !important;
+}
+.greeting1{
+    color: red;
+}
+.hometext{
+    font-size: 70px;
+    text-shadow: 2px 2px 4px black;
+    /* //color: rgb(32, 195, 32) !important; */
+}
+.footerImg img{
+    width: 100px;
+    height: 100px;
+}
+.socialAcc a{
+    font-size: 50px;
+}
+/* nav bottome */
+.nav-item a{
+    color:rgb(82, 67, 38) !important;
+}
+/* store */
+.storeimg img{
+    width: 100px;
+    height: 100px;
+}
+.card-title, .card-text{
+    color: darkblue;
+}
+.storeimg:hover{
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+.btn{
+    background-color: rgb(32, 195, 32) !important;
+    border-color: black;
+}
